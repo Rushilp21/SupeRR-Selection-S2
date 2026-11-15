@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SupeRR Selector Season 2 — Pressure Performance</title>
+  <meta name="description" content="Explore the top 10 batters and bowlers under pressure, their supporting evidence and potential Rajasthan Royals roles.">
+  <meta name="theme-color" content="#ec008c">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css"><script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#rankings">Skip to rankings</a>
+  <header class="header">
+    <a class="wordmark" href="#home" aria-label="SupeRR Selector Season 2 home">Supe<span>RR</span> Selector <small>SEASON 2</small></a>
+    <nav aria-label="Main navigation"><a href="#rankings">Rankings</a><a href="#evidence">Evidence</a><a href="#method">Method</a></nav>
+    <a class="report-link" href="methodology.pdf" target="_blank" rel="noopener">Report <span aria-hidden="true">↗</span></a>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="live-dot"></span> IPL + T20I</div>
+        <h1>Top 10.<br>Under<br><span>pressure.</span></h1>
+        <p class="hero-description">Batters and bowlers ranked by<br>their performance in pressure situations.</p>
+        <a class="button navy" href="#rankings">Explore the rankings <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-art" aria-label="Rajat Patidar, number one batter, and Kuldeep Yadav, number one bowler">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="hero-card hero-bowl"><div class="mini-label">01 / BOWLER</div><img src="assets/3644.png" alt="Kuldeep Yadav" fetchpriority="high"><div class="hero-card-bottom"><strong>Kuldeep<br>Yadav</strong><span>6.35<small>PRESSURE ECON</small></span></div></div>
+        <div class="hero-card hero-bat"><div class="mini-label">01 / BATTER</div><img src="assets/5039.png" alt="Rajat Patidar" fetchpriority="high"><div class="hero-card-bottom"><strong>Rajat<br>Patidar</strong><span>162.0<small>PRESSURE SR</small></span></div></div>
+        <div class="art-tag"><span>UNDER PRESSURE</span><b>TOP 10 × 2</b></div>
+      </div>
+      <div class="hero-stats"><div><strong>715</strong><span>matches analysed</span></div><div><strong>166,227</strong><span>usable deliveries</span></div><div><strong>33,252</strong><span>high-pressure events</span></div><a href="#method">See how pressure is defined <span aria-hidden="true">↗</span></a></div>
+    </section>
+
+    <section class="rankings" id="rankings" aria-labelledby="ranking-heading">
+      <div class="ranking-sticky">
+        <aside class="ranking-rail">
+          <div class="eyebrow light">01 / THE SELECTION</div>
+          <h2 id="ranking-heading">Pressure<br> <em>rankings.</em></h2>
+          <p>Scroll to see each player.</p>
+          <div class="tabs" role="group" aria-label="Player category"><button class="role-tab active" data-role="batter" aria-pressed="true">Batters</button><button class="role-tab" data-role="bowler" aria-pressed="false">Bowlers</button></div>
+          <div class="rank-jumps" role="group" aria-label="Jump to player rank"></div>
+          <div class="rail-footer"><span id="rank-count">01 — 10</span><div class="track"><div id="progress"></div></div><div class="step-controls"><button id="previous" aria-label="Previous ranked player">←</button><span>SCROLL TO REVEAL</span><button id="next" aria-label="Next ranked player">→</button></div></div>
+          <a class="rail-evidence" href="#evidence">Compare all 20 <span aria-hidden="true">↗</span></a>
+        </aside>
+        <div class="deck-wrap"><div class="deck" aria-label="Ranked player cards"></div><p class="deck-note"><a class="checks-link" href="#model-checks">13/13 checks = top ten in all 13 analysis versions ↗</a><br>Index ≠ probability. Auction availability is unverified.</p></div>
+      </div>
+    </section>
+
+    <section class="evidence section" id="evidence" aria-labelledby="evidence-heading">
+      <div class="section-heading"><div><div class="eyebrow">02 / EVIDENCE</div><h2 id="evidence-heading">Top 20<br><span>comparison.</span></h2></div><p>Compare the selected ten with the next ten.<br>Raw rates add context; they do not determine rank alone.</p></div>
+      <div class="evidence-toolbar"><div class="tabs dark-tabs" role="group" aria-label="Comparison category"><button class="table-tab active" data-role="batter" aria-pressed="true">Batters</button><button class="table-tab" data-role="bowler" aria-pressed="false">Bowlers</button></div><label class="search"><span aria-hidden="true">⌕</span><input id="player-search" type="search" placeholder="Find a player" aria-label="Search comparison players"></label><a id="csv-link" href="top10_batters.csv" download>Download top 10 CSV ↓</a></div>
+      <div class="table-scroll" tabindex="0" role="region" aria-label="Top 20 player comparison"><table><caption class="sr-only">Final ranking and pressure evidence for the top twenty eligible players</caption><thead id="table-head"></thead><tbody id="table-body"></tbody></table></div>
+      <div class="table-key"><span><i></i> Final top 10</span><span>HP = high pressure · SR = runs per 100 balls · Econ = runs per 6 legal balls</span><a href="selection-audit.pdf" target="_blank" rel="noopener">Full selection audit ↗</a></div>
+      <p class="checks-note"><b>Top-10 checks (settings):</b> the number of analysis versions that selected the player in the top ten. <b>13/13</b> = all versions; <b>12/13</b> = twelve versions. <a class="checks-link" href="#model-checks">See what changed across the 13 versions ↗</a></p>
+      <div class="finding"><div class="finding-label">READ THE RANKING</div><p id="finding-text"></p><a href="#method">Understand the model ↗</a></div>
+    </section>
+
+    <section class="method section" id="method" aria-labelledby="method-heading">
+      <div class="section-heading"><div><div class="eyebrow">03 / METHOD</div><h2 id="method-heading">Pressure &amp;<br><span>ranking rules.</span></h2></div><a class="button outline" href="methodology.pdf" target="_blank" rel="noopener">Read the methodology <span aria-hidden="true">↗</span></a></div>
+      <div class="method-grid">
+        <article class="pressure-panel"><span class="small-label">THE PRESSURE FILTER</span><div class="pressure-number">TOP <strong>20<span>%</span></strong></div><h3>Relative to the match situation.</h3><p>A delivery is high pressure when its pre-ball pressure score is in the highest fifth of its <b>competition × innings × phase</b> group.</p><div class="signals"><span>Required run rate</span><span>Wickets lost</span><span>Balls remaining</span><span>Knockout stage</span><span>Chase closeness</span></div><p class="fine">First innings: late overs, lost wickets and scoring deficit. Chases: rate demand and a closeness factor that reduces the weight of nearly decided games. The same pre-ball flag applies to batter and bowler.</p></article>
+        <div class="definitions">
+          <details open><summary><span>01</span> What do the card numbers mean?<b>+</b></summary><div><p><b>HP SR:</b> 100 × runs ÷ balls faced in high pressure. <b>HP economy:</b> 6 × runs conceded ÷ legal balls; byes and leg-byes excluded. <b>Ordinary:</b> the same rate outside high pressure.</p><p><b>HP balls / matches:</b> the sample behind the result. <b>Top-10 checks:</b> how many of 13 analysis versions selected the player in the top ten. <a class="checks-link" href="#model-checks">The settings are explained below.</a></p></div></details>
+          <details id="model-checks" open><summary><span>02</span> What does “13/13 checks” mean?<b>+</b></summary><div><p>A <b>setting</b> is one version of the analysis with a particular set of assumptions. We ran <b>one baseline and twelve variations</b>, ranking the same primary-eligible player pool each time.</p><ul class="setting-list"><li><b>1 baseline:</b> top 20% pressure, wicket value 12, pressure shrinkage 150 and ordinary-impact weight 0.20.</li><li><b>3 pressure variations:</b> top 25%, 15% and 10%.</li><li><b>2 wicket values:</b> 8 and 16 runs per dismissal.</li><li><b>2 shrinkage values:</b> 75 and 300 pressure units, varying the small-sample penalty.</li><li><b>2 ordinary-impact weights:</b> 0 and 0.40 instead of 0.20.</li><li><b>2 pressure-formula variations:</b> remove chase closeness; use alternative component weights.</li><li><b>1 recency variation:</b> older years weighted by 0.85 per year.</li></ul><p><b>13/13</b> means top ten in all versions; <b>12/13</b> means top ten in twelve. For example, Kuldeep has 13/13 and Patidar has 12/13. Higher counts show less sensitivity to these assumptions. They do not count matches or guarantee future performance. The final order uses mean rank, not this count alone.</p></div></details>
+          <details><summary><span>03</span> How is the ranking calculated?<b>+</b></summary><div><p>Batting value = runs − 12 × dismissals. Bowling value = 12 × credited wickets − runs conceded. Each is compared with held-out peer expectations for competition, innings, phase and match context.</p><p>Pressure and ordinary residuals are shrunk towards zero for small samples. The primary score is <code>100 × (h − 0.2u − 0.5SEh)</code>, where h and u are shrunk pressure and ordinary residuals and SEh measures match-level uncertainty.</p><p>Final order uses the lowest mean rank across the 13 analysis versions (<a class="checks-link" href="#model-checks">settings</a>), with primary score breaking ties. The <b>consensus index</b> rescales that mean rank within the eligible pool; it is not a success percentage. Rounded indices may tie.</p></div></details>
+          <details><summary><span>04</span> Who qualifies, and is comparison fair?<b>+</b></summary><div><p>At least 500 total balls, 120 pressure balls, 250 ordinary balls, 10 pressure matches and two calendar years. There are 70 eligible batters and 78 eligible bowlers.</p><p>Five whole-match folds separate peer estimation from player evaluation. Context includes IPL/T20I, innings, phase, season, role, opponent, venue, wickets and chase demand, using hierarchical smoothing.</p></div></details>
+          <details><summary><span>05</span> What data was used?<b>+</b></summary><div><p>Six supplied CSVs connect delivery events to players, matches, teams, competitions and playing XIs. After strict Cricsheet supplementation of missing extras and exclusions, 166,227 of 200,999 events remain (715 matches, 22 Jan 2022–1 Nov 2026). Excluded share: 17.3%.</p><p>Only the match state before each ball defines pressure. Normalising pressure within competition, innings and phase makes the exposure comparable across roles.</p></div></details>
+          <details><summary><span>06</span> Can Rajasthan Royals sign these players?<b>+</b></summary><div><p>This is a historical performance ranking, not a confirmed 2027 auction list. Role fit uses RR’s published 2026 squad as a reference. Acquisitions depend on release/trade, registration, clearance, budget and overseas balance.</p><p>Riyan Parag is existing RR core. Fakhar Zaman, Abrar Ahmed and Shaheen Afridi are benchmark-only profiles until IPL entry is verified. Mustafizur’s 2027 clearance needs specific verification.</p></div></details>
+          <details><summary><span>07</span> How robust are the results?<b>+</b></summary><div><p>The 13 settings test changes in assumptions (<a class="checks-link" href="#model-checks">see all versions</a>); 1,000 whole-match bootstrap draws test sampling variation. These are separate checks. Bootstrap frequencies are conditional on the fitted model.</p><p>The 2026 holdout test shows weak persistence: rank correlations are −0.374 for batting (28 players) and −0.039 for bowling (29). The pre-2026 batting top ten underperformed other eligible batters in 2026. These rankings describe history and are not a validated 2027 forecast.</p></div></details>
+        </div>
+      </div>
+      <div class="validation"><div><span class="small-label">2026 HOLDOUT</span><h3>Predictive limits</h3></div><p>The 2026 holdout did not establish reliable predictive performance. Combine these rankings with current form, fitness, scouting and verified auction eligibility before recruitment decisions.</p><a href="methodology.pdf" target="_blank" rel="noopener" aria-label="Download methodology report">↗</a></div>
+    </section>
+  </main>
+  <footer><a class="wordmark" href="#home">Supe<span>RR</span> Selector <small>SEASON 2</small></a><p>Independent competition submission · Not an official Rajasthan Royals website.</p><details class="credits"><summary>Sources & photo credits</summary><div id="photo-credits"><p>Analysis: supplied competition data, matched Cricsheet extras and the accompanying methodology. Player portraits: IPL, Wisden and national-board sources credited individually below. Team identities in photos reflect the image source, not 2027 availability.</p><a href="https://www.rajasthanroyals.com/" target="_blank" rel="noopener">Rajasthan Royals · theme & squad reference ↗</a></div></details></footer>
+  <div class="sr-only" aria-live="polite" id="rank-announcement"></div>
+</body>
+</html>

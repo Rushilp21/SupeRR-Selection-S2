@@ -1,0 +1,292 @@
+{
+  "analysis_period": [
+    "2022-01-22",
+    "2026-11-01"
+  ],
+  "source_rows": 200999,
+  "model_delivery_rows": 166227,
+  "model_matches": 715,
+  "high_pressure_events": 33252,
+  "high_pressure_share": 0.20003970474110705,
+  "eligible_batters": 70,
+  "eligible_bowlers": 78,
+  "scenarios": 13,
+  "bootstrap_samples": 1000,
+  "batting_primary_dismissals_attributed": 8809,
+  "bowler_credited_wickets": 8329,
+  "final_batters": [
+    {
+      "final_rank": 1.0,
+      "player_id": 5039,
+      "player_name": "Rajat Patidar",
+      "consensus_index": 95.9866220735786,
+      "high_units": 158.0,
+      "high_matches": 22.0,
+      "high_strike_rate": 162.0253164556962,
+      "primary_bootstrap_top10_frequency": 0.574,
+      "scenario_top10_frequency": 0.9230769230769231
+    },
+    {
+      "final_rank": 2.0,
+      "player_id": 3647,
+      "player_name": "Shreyas Iyer",
+      "consensus_index": 95.76365663322186,
+      "high_units": 323.0,
+      "high_matches": 37.0,
+      "high_strike_rate": 175.8513931888545,
+      "primary_bootstrap_top10_frequency": 0.654,
+      "scenario_top10_frequency": 0.9230769230769231
+    },
+    {
+      "final_rank": 3.0,
+      "player_id": 3125,
+      "player_name": "Nicholas Pooran",
+      "consensus_index": 94.98327759197325,
+      "high_units": 330.0,
+      "high_matches": 39.0,
+      "high_strike_rate": 159.6969696969697,
+      "primary_bootstrap_top10_frequency": 0.605,
+      "scenario_top10_frequency": 0.9230769230769231
+    },
+    {
+      "final_rank": 4.0,
+      "player_id": 6059,
+      "player_name": "Ruturaj Gaikwad",
+      "consensus_index": 91.30434782608697,
+      "high_units": 173.0,
+      "high_matches": 23.0,
+      "high_strike_rate": 156.64739884393063,
+      "primary_bootstrap_top10_frequency": 0.513,
+      "scenario_top10_frequency": 0.7692307692307693
+    },
+    {
+      "final_rank": 5.0,
+      "player_id": 2921,
+      "player_name": "Fakhar Zaman",
+      "consensus_index": 91.30434782608697,
+      "high_units": 192.0,
+      "high_matches": 21.0,
+      "high_strike_rate": 153.125,
+      "primary_bootstrap_top10_frequency": 0.443,
+      "scenario_top10_frequency": 0.8461538461538461
+    },
+    {
+      "final_rank": 6.0,
+      "player_id": 1699,
+      "player_name": "Suryakumar Yadav",
+      "consensus_index": 86.62207357859532,
+      "high_units": 516.0,
+      "high_matches": 60.0,
+      "high_strike_rate": 158.13953488372093,
+      "primary_bootstrap_top10_frequency": 0.425,
+      "scenario_top10_frequency": 0.6153846153846154
+    },
+    {
+      "final_rank": 7.0,
+      "player_id": 6423,
+      "player_name": "Riyan Parag",
+      "consensus_index": 85.28428093645485,
+      "high_units": 344.0,
+      "high_matches": 37.0,
+      "high_strike_rate": 157.2674418604651,
+      "primary_bootstrap_top10_frequency": 0.352,
+      "scenario_top10_frequency": 0.6153846153846154
+    },
+    {
+      "final_rank": 8.0,
+      "player_id": 6396,
+      "player_name": "Tim David",
+      "consensus_index": 84.94983277591973,
+      "high_units": 298.0,
+      "high_matches": 41.0,
+      "high_strike_rate": 161.40939597315437,
+      "primary_bootstrap_top10_frequency": 0.465,
+      "scenario_top10_frequency": 0.6153846153846154
+    },
+    {
+      "final_rank": 9.0,
+      "player_id": 6460,
+      "player_name": "Ayush Badoni",
+      "consensus_index": 81.93979933110369,
+      "high_units": 252.0,
+      "high_matches": 32.0,
+      "high_strike_rate": 135.71428571428572,
+      "primary_bootstrap_top10_frequency": 0.318,
+      "scenario_top10_frequency": 0.3076923076923077
+    },
+    {
+      "final_rank": 10.0,
+      "player_id": 4853,
+      "player_name": "Glenn Phillips",
+      "consensus_index": 81.27090301003345,
+      "high_units": 200.0,
+      "high_matches": 21.0,
+      "high_strike_rate": 122.0,
+      "primary_bootstrap_top10_frequency": 0.338,
+      "scenario_top10_frequency": 0.6153846153846154
+    }
+  ],
+  "final_bowlers": [
+    {
+      "final_rank": 1.0,
+      "player_id": 3644,
+      "player_name": "Kuldeep Yadav",
+      "consensus_index": 99.7002997002997,
+      "high_units": 324.0,
+      "high_matches": 43.0,
+      "high_economy": 6.351851851851852,
+      "high_dismissals": 28.0,
+      "primary_bootstrap_top10_frequency": 0.884,
+      "scenario_top10_frequency": 1.0
+    },
+    {
+      "final_rank": 2.0,
+      "player_id": 4373,
+      "player_name": "Mustafizur Rahman",
+      "consensus_index": 98.9010989010989,
+      "high_units": 374.0,
+      "high_matches": 39.0,
+      "high_economy": 6.481283422459893,
+      "high_dismissals": 29.0,
+      "primary_bootstrap_top10_frequency": 0.886,
+      "scenario_top10_frequency": 1.0
+    },
+    {
+      "final_rank": 3.0,
+      "player_id": 781,
+      "player_name": "Sunil Narine",
+      "consensus_index": 96.2037962037962,
+      "high_units": 309.0,
+      "high_matches": 32.0,
+      "high_economy": 5.553398058252427,
+      "high_dismissals": 17.0,
+      "primary_bootstrap_top10_frequency": 0.635,
+      "scenario_top10_frequency": 1.0
+    },
+    {
+      "final_rank": 4.0,
+      "player_id": 5979,
+      "player_name": "Abrar Ahmed",
+      "consensus_index": 93.9060939060939,
+      "high_units": 195.0,
+      "high_matches": 19.0,
+      "high_economy": 5.015384615384615,
+      "high_dismissals": 13.0,
+      "primary_bootstrap_top10_frequency": 0.54,
+      "scenario_top10_frequency": 1.0
+    },
+    {
+      "final_rank": 5.0,
+      "player_id": 8661,
+      "player_name": "Matheesha Pathirana",
+      "consensus_index": 92.20779220779221,
+      "high_units": 215.0,
+      "high_matches": 24.0,
+      "high_economy": 7.2,
+      "high_dismissals": 18.0,
+      "primary_bootstrap_top10_frequency": 0.607,
+      "scenario_top10_frequency": 0.8461538461538461
+    },
+    {
+      "final_rank": 6.0,
+      "player_id": 4900,
+      "player_name": "Wanindu Hasaranga",
+      "consensus_index": 91.80819180819181,
+      "high_units": 261.0,
+      "high_matches": 34.0,
+      "high_economy": 6.919540229885057,
+      "high_dismissals": 23.0,
+      "primary_bootstrap_top10_frequency": 0.587,
+      "scenario_top10_frequency": 0.9230769230769231
+    },
+    {
+      "final_rank": 7.0,
+      "player_id": 4692,
+      "player_name": "Lockie Ferguson",
+      "consensus_index": 90.40959040959041,
+      "high_units": 211.0,
+      "high_matches": 24.0,
+      "high_economy": 6.938388625592417,
+      "high_dismissals": 15.0,
+      "primary_bootstrap_top10_frequency": 0.509,
+      "scenario_top10_frequency": 0.7692307692307693
+    },
+    {
+      "final_rank": 8.0,
+      "player_id": 6256,
+      "player_name": "Varun Chakravarthy",
+      "consensus_index": 89.71028971028971,
+      "high_units": 510.0,
+      "high_matches": 55.0,
+      "high_economy": 6.682352941176471,
+      "high_dismissals": 30.0,
+      "primary_bootstrap_top10_frequency": 0.368,
+      "scenario_top10_frequency": 0.7692307692307693
+    },
+    {
+      "final_rank": 9.0,
+      "player_id": 830,
+      "player_name": "Josh Hazlewood",
+      "consensus_index": 84.71528471528471,
+      "high_units": 359.0,
+      "high_matches": 42.0,
+      "high_economy": 7.838440111420613,
+      "high_dismissals": 24.0,
+      "primary_bootstrap_top10_frequency": 0.276,
+      "scenario_top10_frequency": 0.23076923076923078
+    },
+    {
+      "final_rank": 10.0,
+      "player_id": 6355,
+      "player_name": "Shaheen Afridi",
+      "consensus_index": 84.31568431568431,
+      "high_units": 181.0,
+      "high_matches": 23.0,
+      "high_economy": 7.657458563535911,
+      "high_dismissals": 17.0,
+      "primary_bootstrap_top10_frequency": 0.342,
+      "scenario_top10_frequency": 0.07692307692307693
+    }
+  ],
+  "validation": [
+    "original 166227 eligible unique deliveries retained",
+    "all batsman dismissals assigned to dismissed source player including non-striker run-outs",
+    "bowler runs exclude byes/leg-byes/penalties",
+    "five folds isolate whole matches",
+    "expectations finite",
+    "minimum sample rules enforced",
+    "13 predeclared scenarios",
+    "1000 whole-match conditional bootstrap draws",
+    "2026 diagnostic uses pre-2026 training and cutoffs",
+    "exactly 10 unique eligible IDs per final list"
+  ],
+  "main_analysis_complete": true,
+  "pdf_or_ppt_created": false,
+  "historical_holdout": [
+    {
+      "role": "batter",
+      "training_years": "2022-2025",
+      "test_year": 2026,
+      "training_eligible_players": 48,
+      "training_top10_observed_in_2026": 9,
+      "rank_correlation_players_with_30_test_pressure_units": 28,
+      "train_test_rank_spearman": -0.37383689107827034,
+      "training_top10_2026_pressure_residual_per_unit": -0.24734985927221428,
+      "other_training_eligible_2026_pressure_residual_per_unit": 0.288387262892638,
+      "interpretation": "Diagnostic historical test; final ranking uses all available years. Models and calibration for this check use no 2026 rows. Not a guaranteed forecast."
+    },
+    {
+      "role": "bowler",
+      "training_years": "2022-2025",
+      "test_year": 2026,
+      "training_eligible_players": 69,
+      "training_top10_observed_in_2026": 10,
+      "rank_correlation_players_with_30_test_pressure_units": 29,
+      "train_test_rank_spearman": -0.03940886699507388,
+      "training_top10_2026_pressure_residual_per_unit": 0.08192154182706902,
+      "other_training_eligible_2026_pressure_residual_per_unit": 0.004052926998470533,
+      "interpretation": "Diagnostic historical test; final ranking uses all available years. Models and calibration for this check use no 2026 rows. Not a guaranteed forecast."
+    }
+  ],
+  "forecast_validation_conclusion": "Weak persistence: pre-2026 batting top10 underperformed other eligible batters in 2026; bowler rank persistence was near zero. Rankings describe historical evidence and do not establish a reliable 2027 forecast."
+}

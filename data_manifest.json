@@ -1,0 +1,44 @@
+[
+  {
+    "path": "competition_data/ball_by_ball.csv",
+    "archive": "competition_data/ball_by_ball.csv.gz",
+    "bytes": 41071609,
+    "sha256": "a3926f49d2c684dca2a5d2de535a02c5ee46ea654ca1e79dd31c69e7544e9889"
+  },
+  {
+    "path": "cleaned_competition_data/deliveries_clean.csv",
+    "archive": "cleaned_competition_data/deliveries_clean.csv.gz",
+    "bytes": 60723175,
+    "sha256": "7f6443d25987969ed2efa0b4079e1ce28875b27ed0d65857170a9c1c7c039d99"
+  },
+  {
+    "path": "cleaned_competition_data/deliveries_joined.csv",
+    "archive": "cleaned_competition_data/deliveries_joined.csv.gz",
+    "bytes": 128719992,
+    "sha256": "8c2ebc76860d232ec3b0ce4151d13c5e799df5fb2c19ce5a90e766ecb5670fa3"
+  },
+  {
+    "path": "pressure_analysis/deliveries_with_context_pressure_v1.csv",
+    "archive": "pressure_analysis/deliveries_with_context_pressure_v1.csv.gz",
+    "bytes": 205896479,
+    "sha256": "94425f0d49dee93c77044e03b96ecdfd076a4c9737144b452410bac6b93f61a6"
+  },
+  {
+    "path": "final_analysis/batter_out_of_fold_expectations.csv",
+    "archive": "final_analysis/batter_out_of_fold_expectations.csv.gz",
+    "bytes": 10974823,
+    "sha256": "d0a2153468fe567514547c49c6eeac91753f2639d531b2d4f739ff5aa530ed36"
+  },
+  {
+    "path": "final_analysis/bowler_out_of_fold_expectations.csv",
+    "archive": "final_analysis/bowler_out_of_fold_expectations.csv.gz",
+    "bytes": 11308573,
+    "sha256": "e37d8343460f228f4f6991f9eb2b3e5fc117070aa05e1231aef47c0b24213a90"
+  },
+  {
+    "path": "final_analysis/delivery_pressure_calibration_v2.csv",
+    "archive": "final_analysis/delivery_pressure_calibration_v2.csv.gz",
+    "bytes": 19690860,
+    "sha256": "657fdff6ffe842f23f90021b083e77154ef555be63eea41a88a0ce8942c90a44"
+  }
+]

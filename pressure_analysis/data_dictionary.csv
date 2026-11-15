@@ -1,0 +1,154 @@
+column,dtype,missing_count,origin,description
+delivery_id,str,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+source_row_number,int64,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+match_id,int64,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+innings,int64,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+overid,int64,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+over_ball_num,int64,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+innings_ball_num,int64,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+batting_team_id,int64,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+bowling_team_id,int64,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+striker_id,int64,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+striker_name,str,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+non_striker_id,int64,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+non_striker_name,str,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+bowler_id,int64,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+bowler_name,str,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+batting_type,str,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+bowling_type,str,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+batting_order,int64,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+runs_recorded,int64,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+is_four,bool,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+is_six,bool,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+is_wicket,bool,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+dismissal_type_id,float64,190118,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+dismissal_type_raw,str,190118,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+dismissed_player_id,float64,190107,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+extras_type_raw,str,189167,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+extras_type_code_raw,int64,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+extras_secondary_value_raw,int64,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+pace_or_spin,str,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+bowl_speed_raw,float64,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+stroke,str,6158,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+delivery_style,str,391,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+over_or_around,str,407,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+on_or_off,str,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+delivery_ist_time,str,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+extras_type_clean,str,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+extras_scoring_unresolved,bool,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+bowl_speed_quality,str,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+bowl_speed_clean,float64,77904,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+dismissal_type_clean,str,190118,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+dismissal_record_inconsistent,bool,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+bowler_credited_wicket_candidate,bool,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+is_extra_innings,bool,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+delivery_timestamp_utc_as_labeled,str,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+comp_id,int64,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+match_number,int64,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+match_date,str,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+stage,str,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+venue_id,int64,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+venue_country,str,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+home_team_id,int64,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+home_team,str,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+away_team_id,int64,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+away_team,str,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+home_team_captain_id,float64,6856,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+away_team_captain_id,float64,7057,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+toss_win_team_id,int64,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+toss_opted,str,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+man_of_the_match,float64,20484,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+first_inn_revised_overs_raw,float64,198315,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+second_inn_revised_overs_raw,float64,197204,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+revised_target,float64,197272,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+knock_out,bool,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+win_team_id,float64,1932,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+result,str,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+comp_name,str,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+match_format,str,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+season,str,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+competition_group,str,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+delivery_count,int64,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+has_ball_data,bool,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+striker_xi_batting_order,float64,874,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+striker_xi_is_played,object,83,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+striker_xi_is_captain,object,83,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+striker_xi_is_wk,object,83,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+striker_xi_is_impact,object,83,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+striker_xi_is_impact_off,object,83,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+striker_xi_xi_source_record_count,float64,83,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+striker_xi_xi_conflicting_columns,str,200311,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+striker_in_competition_roster,bool,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+non_striker_xi_batting_order,float64,887,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+non_striker_xi_is_played,object,98,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+non_striker_xi_is_captain,object,98,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+non_striker_xi_is_wk,object,98,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+non_striker_xi_is_impact,object,98,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+non_striker_xi_is_impact_off,object,98,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+non_striker_xi_xi_source_record_count,float64,98,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+non_striker_xi_xi_conflicting_columns,str,200313,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+non_striker_in_competition_roster,bool,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+bowler_xi_batting_order,float64,251,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+bowler_xi_is_played,object,30,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+bowler_xi_is_captain,object,30,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+bowler_xi_is_wk,object,30,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+bowler_xi_is_impact,object,30,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+bowler_xi_is_impact_off,object,30,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+bowler_xi_xi_source_record_count,float64,30,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+bowler_xi_xi_conflicting_columns,str,200894,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+bowler_in_competition_roster,bool,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+batting_team_name,str,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+bowling_team_name,str,0,original joined CSV,Preserved source field; see cleaned_competition_data/data_dictionary.csv.
+alignment_status,str,0,this analysis,Derived/reference field; see METHODOLOGY.md for definitions and provenance.
+reference_archive,str,29632,this analysis,Derived/reference field; see METHODOLOGY.md for definitions and provenance.
+reference_match_id,str,29632,this analysis,Derived/reference field; see METHODOLOGY.md for definitions and provenance.
+reference_batter_name,str,29632,this analysis,Derived/reference field; see METHODOLOGY.md for definitions and provenance.
+reference_bowler_name,str,29632,this analysis,Derived/reference field; see METHODOLOGY.md for definitions and provenance.
+reference_batter_id,str,29632,this analysis,Derived/reference field; see METHODOLOGY.md for definitions and provenance.
+reference_non_striker_id,str,29632,this analysis,Derived/reference field; see METHODOLOGY.md for definitions and provenance.
+reference_bowler_id,str,29632,this analysis,Derived/reference field; see METHODOLOGY.md for definitions and provenance.
+team_runs_on_delivery,float64,29632,this analysis,"Reference batter runs plus reference extras. For verified innings, batter runs equal supplied runs_recorded on every delivery."
+extras_runs_on_delivery,float64,29632,this analysis,Derived/reference field; see METHODOLOGY.md for definitions and provenance.
+batter_runs_on_delivery,float64,29632,this analysis,"Supplied runs_recorded, validated against reference batter runs for accepted innings."
+wide_runs,float64,29632,this analysis,Derived/reference field; see METHODOLOGY.md for definitions and provenance.
+no_ball_runs,float64,29632,this analysis,Derived/reference field; see METHODOLOGY.md for definitions and provenance.
+bye_runs,float64,29632,this analysis,Derived/reference field; see METHODOLOGY.md for definitions and provenance.
+leg_bye_runs,float64,29632,this analysis,Derived/reference field; see METHODOLOGY.md for definitions and provenance.
+penalty_runs_on_delivery,float64,29632,this analysis,Derived/reference field; see METHODOLOGY.md for definitions and provenance.
+counts_as_legal_delivery,object,29632,this analysis,False on reference wide or no-ball. Does not itself define batting balls faced.
+team_wickets_on_delivery,float64,29632,this analysis,Derived/reference field; see METHODOLOGY.md for definitions and provenance.
+bowler_wickets_on_delivery,float64,29632,this analysis,"Reference wicket kinds credited to the bowler, excluding run-outs/retirements/obstruction."
+reference_dismissal_kinds,str,29632,this analysis,Derived/reference field; see METHODOLOGY.md for definitions and provenance.
+reference_dismissed_player_ids,str,29632,this analysis,Derived/reference field; see METHODOLOGY.md for definitions and provenance.
+score_before,float64,29632,this analysis,"Team runs accumulated strictly before this delivery, including reference extras and pre-innings penalties. Blank without accepted context."
+wickets_before,float64,29632,this analysis,Team wickets before delivery; retired hurt/not out excluded. Supplied wicket flag retained separately.
+legal_balls_before,float64,29632,this analysis,Previous deliveries excluding wides and no-balls; derived from reference extras.
+balls_remaining_before,float64,29632,this analysis,Recorded final quota minus prior legal deliveries. Revised games excluded from pressure v1 because revision timing is unavailable.
+innings_limit_balls_as_recorded,float64,29632,this analysis,Reference info.overs or innings target.overs converted to balls; six for super-over-like innings.
+chase_target_as_recorded,float64,120181,this analysis,Reference second-innings target or reference first-innings total+1. Final targets in DLS games may not be available at the start; such matches excluded from pressure v1.
+runs_required_before,float64,120181,this analysis,Target minus score before delivery; second innings only.
+is_revised_or_shortened_match,object,29632,this analysis,Derived/reference field; see METHODOLOGY.md for definitions and provenance.
+has_miscounted_over,object,29632,this analysis,Derived/reference field; see METHODOLOGY.md for definitions and provenance.
+has_innings_penalty_adjustment,object,29632,this analysis,Derived/reference field; see METHODOLOGY.md for definitions and provenance.
+source_wicket_flag_agrees,object,29632,this analysis,Supplied is_wicket equals reference team-wicket event; disagreement is preserved for review.
+source_dismissed_id_present,object,29632,this analysis,Derived/reference field; see METHODOLOGY.md for definitions and provenance.
+context_verified,bool,0,this analysis,"Full innings has equal delivery count, batting team, per-delivery batter runs, over and within-over sequence, plus local/global player ID consistency. This is reference agreement, not an official certification."
+wickets_in_hand_before,float64,29632,this analysis,Derived/reference field; see METHODOLOGY.md for definitions and provenance.
+current_run_rate_before,float64,31193,this analysis,6*score_before/legal_balls_before; blank before first legal ball.
+required_run_rate_before,float64,120186,this analysis,6*runs_required_before/balls_remaining_before; second innings only.
+innings_progress_before,float64,29632,this analysis,legal_balls_before/innings_limit_balls_as_recorded.
+innings_phase,str,0,this analysis,"Powerplay <36 prior legal balls, middle 36–89, death >=90. Fixed full-T20 phase labels; shortened games excluded from pressure v1."
+pressure_eligible_v1,bool,0,this analysis,"Accepted context, IPL/T20I, regular innings, standard quota, no recorded revisions/miscounted overs/innings penalties, and nonterminal state."
+pressure_exclusion_reason,str,0,this analysis,Derived/reference field; see METHODOLOGY.md for definitions and provenance.
+prior_expected_rpo,float64,0,this analysis,"Earlier-date accepted standard first-innings runs/legal balls within competition group, shrunk toward 8 rpo with 2,400 pseudo-balls. Same-day and future matches excluded."
+prior_reference_innings,int64,0,this analysis,Derived/reference field; see METHODOLOGY.md for definitions and provenance.
+prior_reference_legal_balls,int64,0,this analysis,Derived/reference field; see METHODOLOGY.md for definitions and provenance.
+pressure_score_v1,float64,34772,this analysis,Rule-based 0–100 index from before-ball context only; formula and caveats in METHODOLOGY.md. Not a calibrated probability or player rating.
+pressure_lateness,float64,34772,this analysis,Derived/reference field; see METHODOLOGY.md for definitions and provenance.
+pressure_wicket_stress,float64,34772,this analysis,Derived/reference field; see METHODOLOGY.md for definitions and provenance.
+pressure_scoring_deficit,float64,113576,this analysis,Derived/reference field; see METHODOLOGY.md for definitions and provenance.
+pressure_chase_closeness,float64,122195,this analysis,Derived/reference field; see METHODOLOGY.md for definitions and provenance.
+pressure_chase_load,float64,122195,this analysis,Derived/reference field; see METHODOLOGY.md for definitions and provenance.
+pressure_band_v1,str,0,this analysis,"High >=55, moderate >=35 and <55, ordinary <35; excluded rows have no score."
+chase_rate_ratio_before,float64,120186,this analysis,Derived/reference field; see METHODOLOGY.md for definitions and provenance.
+chase_demand_context,str,0,this analysis,Derived/reference field; see METHODOLOGY.md for definitions and provenance.

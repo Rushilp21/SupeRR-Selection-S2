@@ -1,0 +1,133 @@
+{
+  "seed": 20261114,
+  "eligibility": {
+    "total_units": 500,
+    "high_units": 120,
+    "ordinary_units": 250,
+    "high_matches": 10,
+    "high_seasons": 2
+  },
+  "pressure": "Within-format/innings/phase empirical percentile of before-ball v1 score, high >=80th percentile.",
+  "settings": [
+    [
+      "primary",
+      0.8,
+      12,
+      150,
+      0.2,
+      "phase",
+      1.0
+    ],
+    [
+      "pressure_top25",
+      0.75,
+      12,
+      150,
+      0.2,
+      "phase",
+      1.0
+    ],
+    [
+      "pressure_top15",
+      0.85,
+      12,
+      150,
+      0.2,
+      "phase",
+      1.0
+    ],
+    [
+      "pressure_top10",
+      0.9,
+      12,
+      150,
+      0.2,
+      "phase",
+      1.0
+    ],
+    [
+      "wicket_value8",
+      0.8,
+      8,
+      150,
+      0.2,
+      "phase",
+      1.0
+    ],
+    [
+      "wicket_value16",
+      0.8,
+      16,
+      150,
+      0.2,
+      "phase",
+      1.0
+    ],
+    [
+      "shrink75",
+      0.8,
+      12,
+      75,
+      0.2,
+      "phase",
+      1.0
+    ],
+    [
+      "shrink300",
+      0.8,
+      12,
+      300,
+      0.2,
+      "phase",
+      1.0
+    ],
+    [
+      "absolute_only",
+      0.8,
+      12,
+      150,
+      0,
+      "phase",
+      1.0
+    ],
+    [
+      "uplift40",
+      0.8,
+      12,
+      150,
+      0.4,
+      "phase",
+      1.0
+    ],
+    [
+      "chase_no_closeness",
+      0.8,
+      12,
+      150,
+      0.2,
+      "no_closeness",
+      1.0
+    ],
+    [
+      "alternative_weights",
+      0.8,
+      12,
+      150,
+      0.2,
+      "alternative",
+      1.0
+    ],
+    [
+      "recent_weight",
+      0.8,
+      12,
+      150,
+      0.2,
+      "phase",
+      0.85
+    ]
+  ],
+  "consensus": "Equal-weight mean scenario rank among primary-eligible players.",
+  "bootstrap_replicates": 1000,
+  "no_pdf_or_ppt": true
+}

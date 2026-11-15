@@ -1,0 +1,142 @@
+[
+  {
+    "player": "Rajat Patidar",
+    "path": "assets/portraits/Rajat_Patidar.png",
+    "image_url": "https://www.wisden.com/static-assets/images/players/65687.png",
+    "source_url": "https://www.wisden.com/players/rajat-manohar-patidar-65687",
+    "bytes": 83681
+  },
+  {
+    "player": "Fakhar Zaman",
+    "path": "assets/portraits/Fakhar_Zaman.png",
+    "image_url": "https://static-files.cricket-australia.pulselive.com/headshots/440/566-camedia.png",
+    "source_url": "https://www.cricket.com.au/players/CA%3A566/fakhar-zaman",
+    "bytes": 188332
+  },
+  {
+    "player": "Riyan Parag",
+    "path": "assets/portraits/Riyan_Parag.png",
+    "image_url": "https://www.rajasthanroyals.com/static-assets/images/players/66939.png?v=7.95",
+    "source_url": "https://www.rajasthanroyals.com/rr-players",
+    "bytes": 992469
+  },
+  {
+    "player": "Glenn Phillips",
+    "path": "assets/portraits/Glenn_Phillips.png",
+    "image_url": "https://www.gujarattitansipl.com/static-assets/images/players/65295.png?v=6.72",
+    "source_url": "https://www.gujarattitansipl.com/players/glenn-phillips-65295-profile",
+    "bytes": 621820
+  },
+  {
+    "player": "Ayush Badoni",
+    "path": "assets/portraits/Ayush_Badoni.png",
+    "image_url": "https://documents.iplt20.com/ipl/IPLHeadshot2024/985.png",
+    "source_url": "https://www.iplt20.com/teams/lucknow-super-giants/squad-details/20586",
+    "bytes": 245536
+  },
+  {
+    "player": "Nicholas Pooran",
+    "path": "assets/portraits/Nicholas_Pooran.png",
+    "image_url": "https://www.wisden.com/static-assets/images/players/63726.png",
+    "source_url": "https://www.wisden.com/players/nicholas-pooran-63726",
+    "bytes": 120925
+  },
+  {
+    "player": "Shreyas Iyer",
+    "path": "assets/portraits/Shreyas_Iyer.png",
+    "image_url": "https://documents.iplt20.com/ipl/IPLHeadshot2025/12.png",
+    "source_url": "https://www.iplt20.com/players/shreyas-iyer/1563",
+    "bytes": 1194382
+  },
+  {
+    "player": "Kuldeep Yadav",
+    "path": "assets/portraits/Kuldeep_Yadav.png",
+    "image_url": "https://documents.iplt20.com/ipl/IPLHeadshot2025/14.png",
+    "source_url": "https://www.iplt20.com/index.php/players/kuldeep-yadav/261",
+    "bytes": 1120232
+  },
+  {
+    "player": "Mustafizur Rahman",
+    "path": "assets/portraits/Mustafizur_Rahman.png",
+    "image_url": "https://documents.iplt20.com/ipl/IPLHeadshot2024/258.png",
+    "source_url": "https://documents.iplt20.com/ipl/IPLHeadshot2024/258.png",
+    "bytes": 1076316
+  },
+  {
+    "player": "Matheesha Pathirana",
+    "path": "assets/portraits/Matheesha_Pathirana.png",
+    "image_url": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1014.png",
+    "source_url": "https://www.iplt20.com/players/matheesha-pathirana/20627",
+    "bytes": 1065392
+  },
+  {
+    "player": "Varun Chakravarthy",
+    "path": "assets/portraits/Varun_Chakravarthy.png",
+    "image_url": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/13203/67469.png",
+    "source_url": "https://www.icc-cricket.com/tournaments/mens-t20-world-cup-2026/teams/4/players/67469/varun-chakaravarthy",
+    "bytes": 49362
+  },
+  {
+    "player": "Ruturaj Gaikwad",
+    "path": "assets/portraits/Ruturaj_Gaikwad.png",
+    "image_url": "https://www.wisden.com/static-assets/images/players/66584.png",
+    "source_url": "https://www.wisden.com/players/ruturaj-gaikwad-66584",
+    "bytes": 75313
+  },
+  {
+    "player": "Suryakumar Yadav",
+    "path": "assets/portraits/Suryakumar_Yadav.png",
+    "image_url": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/11803.png",
+    "source_url": "https://www.icc-cricket.com/rankings/11803/suryakumar-yadav",
+    "bytes": 60448
+  },
+  {
+    "player": "Tim David",
+    "path": "assets/portraits/Tim_David.png",
+    "image_url": "https://www.mumbaiindians.com/static-assets/images/players/large/67402.png?v=2.13&w=400",
+    "source_url": "https://www.mumbaiindians.com/players/67402-tim-david-profile",
+    "bytes": 213582
+  },
+  {
+    "player": "Sunil Narine",
+    "path": "assets/portraits/Sunil_Narine.png",
+    "image_url": "https://documents.iplt20.com/ipl/IPLHeadshot2026/156.png",
+    "source_url": "https://www.iplt20.com/players/sunil-narine/203",
+    "bytes": 1195237
+  },
+  {
+    "player": "Abrar Ahmed",
+    "path": "assets/portraits/Abrar_Ahmed.png",
+    "image_url": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/13203/66884.png",
+    "source_url": "https://www.icc-cricket.com/tournaments/mens-t20-world-cup-2026/teams/6/pakistan-men",
+    "bytes": 37150
+  },
+  {
+    "player": "Wanindu Hasaranga",
+    "path": "assets/portraits/Wanindu_Hasaranga.png",
+    "image_url": "https://static-files.cricket-australia.pulselive.com/headshots/440/3164-camedia.png",
+    "source_url": "https://www.cricket.com.au/players/CA%3A3164/wanindu-hasaranga",
+    "bytes": 241866
+  },
+  {
+    "player": "Lockie Ferguson",
+    "path": "assets/portraits/Lockie_Ferguson.png",
+    "image_url": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/13203/63719.png",
+    "source_url": "https://www.icc-cricket.com/tournaments/mens-t20-world-cup-2026/teams/5/players/63719/lockie-ferguson",
+    "bytes": 29924
+  },
+  {
+    "player": "Shaheen Afridi",
+    "path": "assets/portraits/Shaheen_Afridi.png",
+    "image_url": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/13203/66833.png",
+    "source_url": "https://www.icc-cricket.com/tournaments/mens-t20-world-cup-2026/teams/6/players/66833/shaheen-afridi",
+    "bytes": 35758
+  },
+  {
+    "player": "Josh Hazlewood",
+    "path": "assets/portraits/Josh_Hazlewood.png",
+    "image_url": "https://documents.iplt20.com/ipl/IPLHeadshot2026/36.png",
+    "source_url": "https://www.iplt20.com/players/josh-hazlewood/857",
+    "bytes": 992742
+  }
+]

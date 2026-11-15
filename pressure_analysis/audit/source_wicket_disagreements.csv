@@ -1,0 +1,3 @@
+delivery_id,issue,source_is_wicket,reference_wicket_delta,reference_dismissal_kinds
+17627:2:107,source_wicket_flag_vs_reference,False,1,caught
+50142:1:108,source_wicket_flag_vs_reference,False,1,retired out

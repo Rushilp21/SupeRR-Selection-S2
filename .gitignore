@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.netlify/
+.openai/
+.sites-*/
+.DS_Store
+Thumbs.db
+tmp/
+assets/portraits/*_pdf.png
+*_analysis.zip
+cleaned_competition_data.zip
+pressure_analysis_steps_1_to_3.zip
+
+# Lossless .csv.gz copies of these files are committed; restore them with restore_datasets.py.
+competition_data/ball_by_ball.csv
+cleaned_competition_data/deliveries_clean.csv
+cleaned_competition_data/deliveries_joined.csv
+pressure_analysis/deliveries_with_context_pressure_v1.csv
+final_analysis/batter_out_of_fold_expectations.csv
+final_analysis/bowler_out_of_fold_expectations.csv
+final_analysis/delivery_pressure_calibration_v2.csv

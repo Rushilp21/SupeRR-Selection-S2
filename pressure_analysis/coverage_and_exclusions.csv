@@ -1,0 +1,12 @@
+competition_group,pressure_exclusion_reason,deliveries,matches
+IPL,extra_innings,14,2
+IPL,included,85348,360
+IPL,revised_or_shortened_match,1206,7
+IPL,unverified_context,1119,8
+Other T20,outside_IPL_T20I_scope,255,1
+Other T20,unverified_context,6730,29
+T20I,extra_innings,12,2
+T20I,included,80879,355
+T20I,miscounted_over,121,1
+T20I,revised_or_shortened_match,3532,31
+T20I,unverified_context,21783,103

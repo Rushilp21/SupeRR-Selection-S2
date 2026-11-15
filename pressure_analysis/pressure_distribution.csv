@@ -1,0 +1,25 @@
+competition_group,innings,pressure_band_v1,deliveries,matches,mean_pressure
+IPL,1,excluded,890,8,
+IPL,1,high,4129,278,63.58030097864346
+IPL,1,moderate,10462,356,44.120589681578615
+IPL,1,ordinary,30107,359,15.11035838231904
+IPL,2,excluded,1435,13,
+IPL,2,high,666,88,60.096237178804955
+IPL,2,moderate,6649,233,42.30363864145525
+IPL,2,ordinary,33335,350,19.766290606499478
+IPL,3,excluded,9,2,
+IPL,4,excluded,5,2,
+Other T20,1,excluded,3673,30,
+Other T20,2,excluded,3300,30,
+Other T20,3,excluded,6,2,
+Other T20,4,excluded,6,2,
+T20I,1,excluded,13741,124,
+T20I,1,high,4741,291,64.17541519219358
+T20I,1,moderate,10322,342,44.238231080913295
+T20I,1,ordinary,27662,346,15.518078596018903
+T20I,2,excluded,11695,113,
+T20I,2,high,627,72,60.45929826242653
+T20I,2,moderate,5253,185,42.31562210007638
+T20I,2,ordinary,32274,339,18.60076840989582
+T20I,3,excluded,10,2,
+T20I,4,excluded,2,2,

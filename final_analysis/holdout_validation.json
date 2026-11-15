@@ -1,0 +1,26 @@
+[
+  {
+    "role": "batter",
+    "training_years": "2022-2025",
+    "test_year": 2026,
+    "training_eligible_players": 48,
+    "training_top10_observed_in_2026": 9,
+    "rank_correlation_players_with_30_test_pressure_units": 28,
+    "train_test_rank_spearman": -0.37383689107827034,
+    "training_top10_2026_pressure_residual_per_unit": -0.24734985927221428,
+    "other_training_eligible_2026_pressure_residual_per_unit": 0.288387262892638,
+    "interpretation": "Diagnostic historical test; final ranking uses all available years. Models and calibration for this check use no 2026 rows. Not a guaranteed forecast."
+  },
+  {
+    "role": "bowler",
+    "training_years": "2022-2025",
+    "test_year": 2026,
+    "training_eligible_players": 69,
+    "training_top10_observed_in_2026": 10,
+    "rank_correlation_players_with_30_test_pressure_units": 29,
+    "train_test_rank_spearman": -0.03940886699507388,
+    "training_top10_2026_pressure_residual_per_unit": 0.08192154182706902,
+    "other_training_eligible_2026_pressure_residual_per_unit": 0.004052926998470533,
+    "interpretation": "Diagnostic historical test; final ranking uses all available years. Models and calibration for this check use no 2026 rows. Not a guaranteed forecast."
+  }
+]

@@ -1,0 +1,3 @@
+match_id,innings,source_player_id,source_player_name,role,reference_name,reference_player_id,role_observations,agrees_with_modal_crosswalk
+51385,2,8380,Mohammad Rishad Hossain,striker,Mosaddek Hossain,8919756f,3,False
+51385,2,8380,Mohammad Rishad Hossain,non_striker,Mosaddek Hossain,8919756f,2,False

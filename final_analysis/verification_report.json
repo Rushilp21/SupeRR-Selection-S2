@@ -1,0 +1,22 @@
+{
+  "all_checks_passed": true,
+  "checks": [
+    "166227 unique source deliveries retained in calibration",
+    "all high-pressure flags agree with calibrated percentile",
+    "batter: 10 unique eligible ordered finalists",
+    "batter: consensus ranks independently reconciled",
+    "batter: 1000-bootstrap inclusion frequencies sum to 10",
+    "batter: all match folds isolated",
+    "batter: 10 peer predictions independently recomputed",
+    "batter: top10 primary shrunk impacts reconciled",
+    "bowler: 10 unique eligible ordered finalists",
+    "bowler: consensus ranks independently reconciled",
+    "bowler: 1000-bootstrap inclusion frequencies sum to 10",
+    "bowler: all match folds isolated",
+    "bowler: 10 peer predictions independently recomputed",
+    "bowler: top10 primary shrunk impacts reconciled",
+    "nonempty historical holdout comparison pools",
+    "no PDF/PPT created"
+  ],
+  "sampled_peer_predictions": 20
+}

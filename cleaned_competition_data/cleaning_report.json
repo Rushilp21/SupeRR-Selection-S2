@@ -1,0 +1,74 @@
+{
+  "source_files": {
+    "ball_by_ball": {
+      "input_rows": 200999,
+      "exact_duplicate_rows": 0
+    },
+    "matches": {
+      "input_rows": 883,
+      "exact_duplicate_rows": 0
+    },
+    "competitions": {
+      "input_rows": 141,
+      "exact_duplicate_rows": 0
+    },
+    "teams": {
+      "input_rows": 353,
+      "exact_duplicate_rows": 0
+    },
+    "competition_team_player_mapping": {
+      "input_rows": 6413,
+      "exact_duplicate_rows": 0
+    },
+    "playing_eleven": {
+      "input_rows": 28381,
+      "exact_duplicate_rows": 0
+    }
+  },
+  "output_delivery_rows": 200999,
+  "output_delivery_columns": 100,
+  "match_count": 883,
+  "matches_with_deliveries": 867,
+  "matches_without_deliveries": 16,
+  "player_ids": 1217,
+  "xi_input_rows": 28381,
+  "xi_output_unique_keys": 28341,
+  "xi_duplicate_key_source_rows": 75,
+  "xi_keys_with_conflicts": 35,
+  "name_collision_player_ids": 14,
+  "extras_scoring_unresolved_deliveries": 11833,
+  "dismissal_inconsistent_deliveries": 13,
+  "bowling_speed_quality": {
+    "plausible_assuming_kmh": 123095,
+    "missing_or_nonpositive": 77862,
+    "outside_plausible_kmh_range": 42
+  },
+  "extra_innings_deliveries": 38,
+  "join_checks": {
+    "striker_xi_unmatched_deliveries": 83,
+    "striker_roster_unmatched_deliveries": 0,
+    "non_striker_xi_unmatched_deliveries": 98,
+    "non_striker_roster_unmatched_deliveries": 0,
+    "bowler_xi_unmatched_deliveries": 30,
+    "bowler_roster_unmatched_deliveries": 0,
+    "batting_team_unmatched_deliveries": 0,
+    "bowling_team_unmatched_deliveries": 0
+  },
+  "assertions_passed": [
+    "source primary keys unique except explicitly reconciled XI keys",
+    "all deliveries match a match",
+    "all matches match a competition",
+    "all joins many-to-one",
+    "delivery row count preserved",
+    "delivery_id unique",
+    "XI output keys unique"
+  ],
+  "match_date_min": "2022-01-22",
+  "match_date_max": "2026-11-01",
+  "competition_group_delivery_counts": {
+    "T20I": 106327,
+    "IPL": 87687,
+    "Other T20": 6985
+  },
+  "score_reconstruction": "Not attempted: extras amount semantics are not documented. Do not use raw extras type code as runs."
+}

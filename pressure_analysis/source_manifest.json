@@ -1,0 +1,28 @@
+{
+  "analysis_date_local": "2026-11-14",
+  "primary_source": {
+    "file": "cleaned_competition_data\\deliveries_joined.csv",
+    "sha256": "8c2ebc76860d232ec3b0ce4151d13c5e799df5fb2c19ce5a90e766ecb5670fa3"
+  },
+  "external_scoring_references": [
+    {
+      "file": "ipl_json.zip",
+      "url": "https://cricsheet.org/downloads/ipl_json.zip",
+      "sha256": "46ff2f5e41147510a55502e52ea8761b216a319974cad907d6ff2d8c2d4be495",
+      "bytes": 5214168
+    },
+    {
+      "file": "t20s_male_json.zip",
+      "url": "https://cricsheet.org/downloads/t20s_male_json.zip",
+      "sha256": "102586ea122793aafc645e05d6a598b9fff0746935e39b77f2d6f153bc385086",
+      "bytes": 14638615
+    }
+  ],
+  "attribution": "Cricsheet (https://cricsheet.org/). Supplementary extras, legality, targets and wicket context; supplied players and batting outcomes remain the analysis population.",
+  "documentation": "https://cricsheet.org/format/json/",
+  "licensing": "https://cricsheet.org/licensing/",
+  "official_validation_source": "https://www.windiescricket.com/series/england-in-west-indies-2021-22-16230/",
+  "external_data_added": true,
+  "match_acceptance": "Unique exact date + normalized team pair; exact full-innings delivery and run/over sequences; player identity consistency.",
+  "no_external_only_matches_added": true
+}

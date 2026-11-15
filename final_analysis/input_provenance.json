@@ -1,0 +1,7 @@
+{
+  "context_csv": "pressure_analysis\\deliveries_with_context_pressure_v1.csv",
+  "sha256": "94425f0d49dee93c77044e03b96ecdfd076a4c9737144b452410bac6b93f61a6",
+  "primary_source_population": "Supplied competition data only; scoring context supplemented from strictly matched Cricsheet records.",
+  "rr_roster_reference": "https://www.rajasthanroyals.com/rr-players",
+  "analysis_date_local": "2026-11-14"
+}
