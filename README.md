@@ -92,6 +92,8 @@ Ten provisional uncapped-Indian scouting candidates are included in a third card
 
 ## Reports
 
+The website also includes an **Auction Watchlist** after Method in the navigation. Its six profiles are conditional scouting options, not verified free agents or confirmed 2027 auction entrants. Each includes pressure evidence, a role hypothesis and a recruitment concern. Sources and the verification date are published in the section and `auction_watchlist_sources.json`. Regenerate its static content with `python build_auction_watchlist.py`; do not mark any candidate available without an official release/contract check and auction-shortlist verification.
+
 - [Current five-page submission](output/pdf/SupeRR_Selector_Submission_With_Watchlist.pdf)
 - [Top-20 selection audit](output/pdf/RR_Pressure_Player_Selection_Audit.pdf)
 - [Full methodology and conclusions](final_analysis/METHODOLOGY_AND_CONCLUSIONS.md)

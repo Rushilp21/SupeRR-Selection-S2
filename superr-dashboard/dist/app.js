@@ -122,6 +122,7 @@ async function init() {
     $('#next').addEventListener('click',()=>jumpTo(state.active+1));
     $$('.table-tab').forEach(b=>b.addEventListener('click',()=>{state.tableRole=b.dataset.role;renderTable();}));
     $('#player-search').addEventListener('input',renderTable);
+    $$('.mobile-nav a').forEach(a=>a.addEventListener('click',()=>a.closest('details').open=false));
     document.addEventListener('click',event=>{if(event.target.closest('.checks-link'))$('#model-checks').open=true;});
     const queue=()=>{if(state.pending)return;state.pending=true;requestAnimationFrame(()=>{state.pending=false;updateCards();});};
     window.addEventListener('scroll',queue,{passive:true});window.addEventListener('resize',queue);
