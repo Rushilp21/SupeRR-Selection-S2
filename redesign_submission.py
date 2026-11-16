@@ -152,4 +152,7 @@ original = original[:start] + page_one + original[end:]
 start = original.index('# 4. Compact charts')
 end = original.index('footer();c.save()',start) + len('footer();c.save()')
 original = original[:start] + page_four + original[end:]
+if globals().get('WATCHLIST_EDITION'):
+    original = original.replace('page 4', 'page 5')
+    original = original.replace("PDF=OUT/'SupeRR_Selector_Submission_Revised.pdf'", "PDF=TMP/'watchlist_base.pdf'")
 exec(compile(original,str(root/'create_submission_pdf.py'),'exec'),{'__file__':str(root/'create_submission_pdf.py'),'__name__':'__main__'})

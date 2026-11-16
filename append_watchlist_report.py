@@ -1,6 +1,6 @@
 """Append the supplemental watchlist to the approved four-page submission."""
 from pathlib import Path
-import io,json,shutil,html
+import io,json,shutil,html,runpy
 from PIL import Image
 from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import landscape,A4
@@ -14,7 +14,8 @@ from pypdf import PdfReader,PdfWriter
 ROOT=Path(__file__).resolve().parent
 DIST=ROOT/'superr-dashboard/dist'
 OUT=ROOT/'output/pdf/SupeRR_Selector_Submission_With_Watchlist.pdf'
-base=ROOT/'output/pdf/SupeRR_Selector_Submission_Revised.pdf'
+runpy.run_path(str(ROOT/'redesign_submission.py'),init_globals={'WATCHLIST_EDITION':True})
+base=ROOT/'tmp/pdfs/watchlist_base.pdf'
 players=json.loads((DIST/'data.json').read_text())['uncapped']
 W,H=landscape(A4);M=32;CW=W-64
 navy=colors.HexColor('#14243C');pink=colors.HexColor('#D82C75');pale=colors.HexColor('#FCECF3')
@@ -46,7 +47,8 @@ table.setStyle(TableStyle(commands));_,th=table.wrap(CW,1000);table.drawOn(c,M,H
 para('<b>Read cautiously:</b> Badoni and Suyash have the stronger model evidence; ranks 8-10 are monitoring options. The index is relative to eligible peers within batting or bowling, not a success probability or an identical skill scale across roles. All ten meet the original sample thresholds. Auction entry, availability, fitness, price and confirmed RR role need remain unverified.',M,83,CW,tiny)
 para('<b>Scope:</b> this page supplements the two required top-ten lists; it does not change them. SR = runs per 100 balls; economy = runs per six legal balls. Portrait providers are linked in the dashboard footer and watchlist_sources.json. Historical kits do not establish 2027 affiliation.',M,48,CW,ParagraphStyle('s',parent=tiny,fontSize=6.9,leading=8.5))
 c.save();buf.seek(0)
-writer=PdfWriter();pages=list(PdfReader(base).pages)+list(PdfReader(buf).pages)
+original_pages=list(PdfReader(base).pages)
+writer=PdfWriter();pages=original_pages[:3]+list(PdfReader(buf).pages)+original_pages[3:]
 for i,page in enumerate(pages,1):
  stamp=io.BytesIO();sc=canvas.Canvas(stamp,pagesize=(W,H));sc.setFillColor(colors.white);sc.rect(W-80,7,65,19,fill=1,stroke=0);sc.setFillColor(colors.HexColor('#59697C'));sc.setFont('WatchSans',7);sc.drawRightString(W-M,16,f'{i} / 5');sc.save();stamp.seek(0);page.merge_page(PdfReader(stamp).pages[0]);writer.add_page(page)
 writer.add_metadata({'/Title':'SupeRR Selector Season 2 - Rankings, Methodology and Uncapped Watchlist'})
