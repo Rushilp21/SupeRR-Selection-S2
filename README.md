@@ -1,6 +1,6 @@
 # SupeRR Selector Season 2
 
-IPL and T20I pressure-performance analysis, a four-page methodology report, and an interactive Rajasthan Royals themed dashboard.
+IPL and T20I pressure-performance analysis, a five-page methodology report, and an interactive Rajasthan Royals themed dashboard.
 
 ## Deploy on Netlify
 
@@ -86,9 +86,13 @@ Players are compared against held-out peer expectations, with sample shrinkage a
 
 The 2026 holdout showed weak persistence: batting rank correlation **-0.374** and bowling **-0.039**. The rankings describe historical evidence, not a validated 2027 forecast. Auction entry, releases, clearances, current fitness, budget and overseas balance need separate verification. This is an independent competition submission, not an official Rajasthan Royals website.
 
+## Supplemental uncapped watchlist
+
+Ten provisional uncapped-Indian scouting candidates are included in a third card category, with photos, evidence tiers and conditional RR roles. The order uses the existing discipline-relative indices; no India playing-XI appearances are recorded in the supplied dataset. Complete senior cap histories and current availability require verification. This supplement does not alter the two required top-ten lists. Rebuild its data with `python update_uncapped_watchlist.py`; append its report page with `python append_watchlist_report.py` after regenerating the original revised report.
+
 ## Reports
 
-- [Revised submission](output/pdf/SupeRR_Selector_Submission_Revised.pdf)
+- [Current five-page submission](output/pdf/SupeRR_Selector_Submission_With_Watchlist.pdf)
 - [Top-20 selection audit](output/pdf/RR_Pressure_Player_Selection_Audit.pdf)
 - [Full methodology and conclusions](final_analysis/METHODOLOGY_AND_CONCLUSIONS.md)
 
